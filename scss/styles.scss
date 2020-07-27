@@ -301,9 +301,29 @@ body {
   width: 100%;
   padding-left: 21px;
   padding-top: 90px;
+  position: relative;
 
   .text-area &__text:nth-child(1) {
     background-color: #f7f9fc;
+  }
+
+  &__scroll {
+    position: absolute;
+    border-right: 5px solid #E4E5EA;
+    border-radius: 4px;
+    top: 0;
+    right: 0;
+    height: 450px;
+
+    &::after {
+      content: "";
+      height: 55px;
+      border-right: 5px solid #BDC1CC;
+      border-radius: 5px;
+      bottom: 75px;
+      right: -5px;
+      position: absolute;
+    }
   }
 
   &__message {
