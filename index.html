@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./build/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="chat-wrapper">
+      <div class="side-block">
+        <ul class="side-block__list">
+          <li class="side-block__item">
+            <img
+              class="side-block__logo"
+              src="./assets/img/logo.png"
+              alt="logo"
+            />
+          </li>
+          <li class="side-block__relative-block">
+            <div class="side-block__count">1</div>
+            <svg class="svg-images">
+              <use href="./assets/svg/calendar.svg#calendar"></use>
+            </svg>
+          </li>
+          <li class="side-block__item">
+            <svg class="svg-images">
+              <use href="./assets/svg/person.svg#person"></use>
+            </svg>
+          </li>
+          <li class="side-block__item">
+            <svg class="svg-images">
+              <use href="./assets/svg/options.svg#options"></use>
+            </svg>
+          </li>
+          <li class="side-block__item">
+            <svg class="svg-images">
+              <use href="./assets/svg/crowd.svg#crowd"></use>
+            </svg>
+          </li>
+          <li class="side-block__item">
+            <svg class="svg-images">
+              <use href="./assets/svg/mail.svg#mail"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+      <div class="main-block">
+        <div class="navigation">
+          <div>
+            <a class="navigation__link" href="">Home</a>
+            <span class="navigation__icon">&gt;</span>
+            <a class="navigation__link" href="">Network</a>
+          </div>
+          <div class="navigation__profile">
+            <div class="navigation__image"></div>
+            <p class="navigation__name">Sarah Freeman</p>
+            <span class="navigation__icon-down">&gt;</span>
+          </div>
+        </div>
+
+        <div class="chat-window">
+          <div>
+            <ul class="chat-list">
+              <li class="chat-list__item">
+                <svg class="chat-list__icon-mute">
+                  <use href="./assets/svg/mute.svg#mute"></use>
+                </svg>
+                <p class="chat-list__time">9:32</p>
+                <div class="chat-list__image"></div>
+                <div class="chat-list__info">
+                  <h3 class="chat-list__name">Miranda Hops</h3>
+                  <p class="chat-list__message">Excepteur sint occaecatar…</p>
+                </div>
+              </li>
+              <li class="chat-list__item">
+                <p class="chat-list__time">22:01</p>
+                <div class="chat-list__image"></div>
+                <div class="chat-list__info">
+                  <h3 class="chat-list__name">Barry Callebaut</h3>
+                  <p class="chat-list__message">Nemo enim ipsam volupta…</p>
+                </div>
+              </li>
+              <li class="chat-list__item">
+                <p class="chat-list__time">19:15</p>
+                <div class="chat-list__image"></div>
+                <div class="chat-list__info">
+                  <h3 class="chat-list__name">Stacey Dosh</h3>
+                  <p class="chat-list__message">To take a trivial example…</p>
+                </div>
+              </li>
+              <li class="chat-list__item">
+                <p class="chat-list__time">13:49</p>
+                <div class="chat-list__image"></div>
+                <div class="chat-list__info">
+                  <h3 class="chat-list__name">Michael Kors</h3>
+                  <p class="chat-list__message">To take a trivial example…</p>
+                </div>
+              </li>
+              <li class="chat-list__item">
+                <p class="chat-list__time">10:25</p>
+                <div class="chat-list__image"></div>
+                <div class="chat-list__info">
+                  <h3 class="chat-list__name">Johny Cash</h3>
+                  <p class="chat-list__message">Great explorer of the truth…</p>
+                </div>
+              </li>
+              <li class="chat-list__item">
+                <p class="chat-list__time">08:53</p>
+                <div class="chat-list__image"></div>
+                <div class="chat-list__info">
+                  <h3 class="chat-list__name">Stacey Dosh</h3>
+                  <p class="chat-list__message">Ut enim ad minima veniam…</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="message-field">
+            <div class="search-block">
+              <p class="search-block__date">Today, 17.03.2018</p>
+              <div>
+                <svg class="search-block__icon">
+                  <use href="./assets/svg/loop.svg#loop"></use>
+                </svg>
+              </div>
+              <input
+                class="search-block__input"
+                placeholder="Search message ..."
+                type="text"
+              />
+            </div>
+
+            <div class="text-area">
+              <div class="text-area__message">
+                <div class="text-area__image"></div>
+                <div>
+                  <p class="text-area__text">
+                    On the other hand, we denounce with righteous indignation!
+                  </p>
+                  <p class="text-area__time">01:14</p>
+                </div>
+              </div>
+              <div class="text-area__answer">
+                <p class="text-area__text">Which is the same as saying?</p>
+                <p class="text-area__time">01:38</p>
+              </div>
+              <div class="text-area__message">
+                <div class="text-area__image"></div>
+                <div>
+                  <p class="text-area__text">
+                    But in certain circumstances and owing to the claims of duty
+                    or the obligations of business it will frequently occur that
+                    pleasures
+                  </p>
+                  <p class="text-area__time">01:14</p>
+                </div>
+              </div>
+              <div class="text-area__answer">
+                <p class="text-area__text">
+                  To take a trivial example, which of us ever undertakes)
+                </p>
+                <p class="text-area__time">01:38</p>
+              </div>
+            </div>
+
+            <div class="message-block">
+              <input
+                class="message-block__input"
+                placeholder="Write a message ..."
+                type="text"
+              />
+
+              <div class="message-block__icons">
+                <svg class="message-block__icon">
+                  <use href="./assets/svg/smile.svg#smile"></use>
+                </svg>
+                <svg class="message-block__icon">
+                  <use href="./assets/svg/clip.svg#clip"></use>
+                </svg>
+                <div class="message-block__nav-icon">
+                  <svg width="20px" height="22px">
+                    <use href="./assets/svg/message.svg#message"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "chat_markup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass scss/styles.scss -o build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladyslavChychykalo/chat_markup.git"
+  },
+  "author": "Vladyslav <vladyslav.chychykalo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladyslavChychykalo/chat_markup/issues"
+  },
+  "homepage": "https://github.com/VladyslavChychykalo/chat_markup#readme"
+}
